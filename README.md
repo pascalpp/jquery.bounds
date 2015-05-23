@@ -4,7 +4,6 @@ A jQuery plugin helper for getBoundingClientRect
 ### Install
 
 ```
-// this doesn't work yet, but soon
 $ bower install jquery.bounds --save
 ```
 
