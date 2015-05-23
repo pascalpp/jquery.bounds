@@ -1,0 +1,27 @@
+{
+  "name": "jquery.bounds",
+  "main": "jquery.bounds.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pascalpp/jquery.bounds",
+  "authors": [
+    "Pascal <pascal@pascal.com>"
+  ],
+  "description": "A jQuery plugin helper for getBoundingClientRect",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "jquery",
+    "bounds",
+    "offset",
+    "position"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

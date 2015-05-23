@@ -2,6 +2,7 @@
 $.bounds
 jquery helper for getBoundingClientRect
 2015-04-05 pascal
+v1.0.0
 */
 (function(root, factory) {
 	// Set up appropriately for the environment. Start with AMD.
@@ -35,7 +36,7 @@ jquery helper for getBoundingClientRect
 
 			// rect[top, bottom, left, right] are relative to the viewport
 			// we almost always want to know the position relative to the top of the document
-			// so if we add the scroll top amount
+			// so we add the scroll top amount if origin is 'document' (default)
 
 			if (options.origin === 'document') {
 				scrollLeft = $window.scrollLeft();
@@ -43,7 +44,7 @@ jquery helper for getBoundingClientRect
 			}
 
 			// getBoundingClientRect returns a read-only object, so we clone it
-			// $.clone chokes on this object for some reason, so we doing an object literal copy
+			// $.clone chokes on this object for some reason, so we make an object literal copy
 
 			bounds = {
 				top: rect.top + scrollTop,
