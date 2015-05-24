@@ -4,10 +4,38 @@
 	<meta charset="utf-8">
 	<title>QUnit Tests for jquery.bounds</title>
 	<link rel="stylesheet" href="http://code.jquery.com/qunit/qunit-1.17.1.css">
+	<style>
+		body {
+			background-color: #333;
+			width: 10000px;
+			height: 10000px;
+		}
+
+		.report {
+			width: 700px;
+			margin-left: 100px;
+			margin-top: 100px;
+		}
+
+		.testnode {
+			background-color: #fff;
+			position: absolute;
+			width: 200px;
+			height: 100px;
+			left: 200px;
+			top: 700px;
+		}
+	</style>
 </head>
 <body>
-	<div id="qunit"></div>
-	<div id="qunit-fixture"></div>
+	<div class="report">
+		<div id="qunit"></div>
+		<div id="qunit-fixture"></div>
+	</div>
+	<div class="testnode">
+		Test Node
+	</div>
+
 	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script src="http://code.jquery.com/qunit/qunit-1.17.1.js"></script>
 	<script src="../jquery.bounds.js"></script>
