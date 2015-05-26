@@ -10,7 +10,7 @@ $ bower install jquery.bounds --save
 ### Usage
 
 ```js
-$('div.mynode').bounds()
+$('div.mynode').bounds();
 ```
 
 This returns an object with these properties:
