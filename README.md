@@ -25,7 +25,7 @@ This returns an object with these properties:
 }
 ```
 
-Unlike the rect object return `getBoundingClientRect`, this object is modifiable, so you can add or substract from the properties as needed.
+Unlike the rect object returned by `getBoundingClientRect`, this object is modifiable, so you can add or substract from the properties as needed.
 
 By default, the top, left, right, and bottom properties are relative to the top-left of the document, accounting for scroll offsets.
 
